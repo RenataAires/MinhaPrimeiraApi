@@ -1,3 +1,6 @@
+using MinhaPrimeiraApi.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,7 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=minhaapi.db")); // Configura o contexto do banco de dados para usar SQLite
 
 var app = builder.Build();
 
