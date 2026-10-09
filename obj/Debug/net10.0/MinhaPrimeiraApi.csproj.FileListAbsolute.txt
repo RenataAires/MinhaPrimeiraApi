@@ -34,3 +34,4 @@ C:\WoMakersCode\Projeto API dotnet\MinhaPrimeiraApi\obj\Debug\net10.0\refint\Min
 C:\WoMakersCode\Projeto API dotnet\MinhaPrimeiraApi\obj\Debug\net10.0\MinhaPrimeiraApi.pdb
 C:\WoMakersCode\Projeto API dotnet\MinhaPrimeiraApi\obj\Debug\net10.0\MinhaPrimeiraApi.genruntimeconfig.cache
 C:\WoMakersCode\Projeto API dotnet\MinhaPrimeiraApi\obj\Debug\net10.0\ref\MinhaPrimeiraApi.dll
+C:\WoMakersCode\Projeto API dotnet\MinhaPrimeiraApi\obj\Debug\net10.0\MinhaPrimeiraApi.sourcelink.json
