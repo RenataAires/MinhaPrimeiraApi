@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=minhaapi.db")); // Configura o contexto do banco de dados para usar SQLite
-builder.Services.AddScoped<ProductRepository, ProductRepository>(); // Registra o repositório de produtos como um serviço
+builder.Services.AddScoped<ProdutoRepository, ProdutoRepository>(); // Registra o repositório de produtos como um serviço
 builder.Services.AddScoped<ProdutoService, ProdutoService>(); // Registra o serviço de produtos como um serviço
 
 builder.Services.AddCors(options =>
