@@ -1,10 +1,8 @@
-namespace MinhaPrimeiraApi.Repositories;
+namespace MinhaPrimeiraApi.Services;
 
 using MinhaPrimeiraApi.Models;
 
-
-
-public interface IProdutoRepository
+public interface IProdutoService
 {
     Task<List<Produto>> ListarTodosAsync();
 

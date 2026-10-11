@@ -50,5 +50,10 @@ namespace MinhaPrimeiraApi.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
+
+        public async Task<bool> ExisteNomeDuplicadoAsync(string nome)
+        {
+            return await _context.Produtos.AnyAsync(p => p.Nome == nome);
+        }
     }
 }
